@@ -4,8 +4,8 @@
     --primary-color: #0d7c57;
     --secondary-color: #2584ff;
     --ascent-color: #ffa500;
-    --heading-color: #1b0760;
-    --body-color: #918ca4;
+    --heading-color: #252525;
+    --body-color: #3a3a3a;
 }
 
 * {
@@ -23,19 +23,20 @@ html {
 body {
 font-family: Lato, Arial, Helvetica, sans-serif;
 font-weight: 300;
-color: var(--body-color);
 font-size: 1.5rem;
 line-height: 1.5;
+color: var(--body-color);
 }
 
 h1, 
 h2,
 h3 {
     color: var(--heading-color);
+    font-family: Oswald, Arial, Helvetica, sans-serif;
 }
 
 h1 {
-    font-size: 4.4rem;
+    font-size: 3.5rem;
 }
 
 h2 {
@@ -43,7 +44,7 @@ h2 {
 }
 
 h3 {
-    font-size: 1.9rem;
+    font-size: 1.8rem;
 }
 
 /* Media Query */
