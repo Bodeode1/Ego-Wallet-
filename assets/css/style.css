@@ -78,15 +78,20 @@ h3 {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    padding: 0;
+    padding: 1rem 1rem;
+}
+
+#logo {
+    color: var(--primary-color);
+    text-transform: uppercase;
 }
 
 .menu-list {
     width: 100%;
     margin: 0;
 }
-.menu-inline .list-items {
-    display:inline-block;
+.menu-inline .list__items {
+    display: block;
     list-style-type: none;
     
 }
@@ -99,12 +104,27 @@ h3 {
     background: var(--ascent-color);
 }
 
-.list-items {
-    padding: 0.3rem 1.25rem;
+.list__items {
+    padding: 0.3rem 0;
+    margin-right: 1.8rem;
 }
 
 .menu-list #anchor-icon {
     background: var(--primary-color);
     border:  1px solid #ccc;
-    border-radius: 0.5rem;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+@media screen  and (min-width: 786px) {
+    .menu-list {
+        display: flex;
+        font-size: 1rem;
+        max-height: 100%;
+        width: auto;
+    }
+    
+    #logo {
+        font-size: 3rem;
+    }
 }
