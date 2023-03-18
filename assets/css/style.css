@@ -1,5 +1,4 @@
-  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lato:wght@300&family=Oswald&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
 /* Color variables */
 :root {
     --primary-color: #0d7c57;
@@ -22,7 +21,8 @@ html {
 /* Typography */
 
 body {
-font-family: Inter, Arial, Helvetica, sans-serif;
+font-family: Lato, Arial, Helvetica, sans-serif;
+font-weight: 300;
 color: var(--body-color);
 font-size: 1.5rem;
 line-height: 1.5;
@@ -114,6 +114,7 @@ h3 {
     border:  1px solid #ccc;
     border-radius: 50px;
     overflow: hidden;
+    padding: 0 0.3rem;
 }
 
 @media screen  and (min-width: 786px) {
