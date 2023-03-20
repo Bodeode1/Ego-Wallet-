@@ -6,12 +6,12 @@
     --ascent-color: #ffa500;
     --heading-color: #252525;
     --body-color: #3a3a3a;
+    --box-shadow: 0 0 20px #686868;
 }
 
-* {
-    box-sizing: border-box;
-    margin: 0;
+* { margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
  
 
@@ -140,14 +140,45 @@ h3 {
 
 
 /* Icons */
-
-.card-secondary {
-padding-left: 0.6rem;
+.card {
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+    padding: 0.6rem;
 }
 
+.card-header, .card-body {
+    padding-left: 0.6rem;
+}
+.card-body {
+    background: var(--secondary-color);
+    color: #ffff;
+}
+
+.card-body h3 {
+    color: #fff;
+}
+.card-body-secondary {
+    background: var(--primary-color);
+}
+
+.card-header h3 {
+    font-size: 2rem;
+    font-weight: 400;
+}
 .icon-card-container i {
  color: var(--secondary-color);
- 
+}
+
+.icon-secondary-container i {
+    color: var(--primary-color);
+}
+
+.icon-card-ascent i {
+    color: var(--ascent-color);
+}
+
+.card-secondary .card-header-secondary i {
+    color: var(--primary-color);
 }
 
 .icon-card-container {
@@ -162,8 +193,25 @@ padding-left: 0.6rem;
     margin-right: 1rem;
 }
 
-.card__item {
+.card-header p {
     clear: both;
     padding-left: 0.6rem;
-    text-transform: capitalize;
+}
+
+.card .span__price {
+font-size: 2rem;
+}
+
+.card-body-ascent .btn-card {
+    border-radius: 50px;
+    color: #fff;
+    text-align: center;
+    padding: 0.9rem 2rem;
+    cursor: pointer;
+    border: 1px solid lightgray;
+    padding-bottom: 5px;
+}
+
+.btn-card {
+    margin: 0.6rem 0;
 }
