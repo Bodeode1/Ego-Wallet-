@@ -55,7 +55,7 @@ h3 {
     }
 
     h1 {
-        font-size: 5rem;
+        font-size: 4.5rem;
     }
 
     h2 {
@@ -129,9 +129,41 @@ h3 {
     #logo {
         font-size: 3rem;
     }
+
+    .menu-list a {
+        font-size: 1.5rem;
+    }
 }
 
-/* Section for introduction to company */
+/* grid */
+.grid {
+    display: grid;
+    box-shadow: var(--box-shadow);
+    gap: 20px;
+    padding: 0.6rem 1rem;
+}
+
+@media screen and (min-width:768px) {
+    .grid-2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .grid-3 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .grid-3 p {
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (mind-width: 1024px) {
+    .grid-header p {
+       font-size: 1.8rem;
+    }
+}
 .main__intro {
     max-width: 100;
     text-align: center;
@@ -139,15 +171,17 @@ h3 {
 }
 
 
-/* Icons */
+/* card */
 .card {
     border-radius: 10px;
     box-shadow: var(--box-shadow);
     padding: 0.6rem;
+    text-align: center;
 }
 
-.card-header, .card-body {
-    padding-left: 0.6rem;
+.card-header, 
+.card-body {
+    padding: 1.2rem 1.8rem;
 }
 .card-body {
     background: var(--secondary-color);
@@ -161,6 +195,9 @@ h3 {
     background: var(--primary-color);
 }
 
+.card-body-ascent {
+    background: var(--ascent-color);
+}
 .card-header h3 {
     font-size: 2rem;
     font-weight: 400;
@@ -200,4 +237,14 @@ h3 {
 
 .card .span__price {
 font-size: 2rem;
+}
+
+/* hero-image */
+
+.hero-image {
+    background: url(../images/wallet\ picture.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+
 }
