@@ -134,6 +134,12 @@ h3 {
     }
 }
 
+/* navigation drop down menu */
+
+.menu-inline .dropdown {
+    display: inline-block;
+}
+
 /* grid */
 .grid {
     display: grid;
