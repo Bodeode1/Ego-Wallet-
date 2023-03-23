@@ -43,8 +43,9 @@ h2 {
 }
 
 h3 {
-    font-size: 1.8re;
-    font-weight: 400;}
+    font-size: 1.8rem;
+    font-weight: 400;
+}
 
 /* Media Query */
 
@@ -72,6 +73,7 @@ h3 {
 /* List */
 
 /* Navigation */
+
 .menu {
     display: flex;
     background-color: #000;
@@ -148,9 +150,13 @@ h3 {
     padding: 0.6rem 1rem;
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:768px) and (max-width: 1023px) {
     .grid-2 {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .grid > :last-child {
+        grid-column: 1 / span 2;
     }
 }
 
@@ -273,7 +279,7 @@ font-size: 2rem;
 /* animate hero-image for zoom effect */
 @keyframes wallet-zoom {
 from {
-    transform: scale(1)
+    transform: scale(1);
 }
 to {
     transform: scale(1.1);
@@ -290,6 +296,45 @@ to {
     }
 }
 
+/* footer */
+.socials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem 1.5rem;
+    align-items: flex-start; 
+}
+
+.socials h2 {
+font-size: 1.5rem;
+}
+
+.socials li {
+    list-style-type: none;
+    margin: 0.3rem 0;
+    display: block;
+}
+
+.socials i {
+    color: var(--primary-color);
+    font-size: 28px;
+}
+
+.socials i:hover {
+opacity: 0.4;
+}
 
 
+@media screen and (min-width: 768px) {
+    .socials {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 1rem 2rem;
+        align-items: center;
 
+    }
+
+    .socials li {
+        margin: 0 1rem;
+    }
+}
