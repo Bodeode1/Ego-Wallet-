@@ -350,7 +350,7 @@ opacity: 0.4;
     }
 }
 
-/* company tab section */
+/* company.html tab section */
 
 /* button */
 .btn {
@@ -374,12 +374,14 @@ opacity: 0.4;
 
 
 /* card */
-.img-tv {
-width: 300px;
+
+.img-groceries, .img-tv {
+    width: 300px;
 }
 
-.img-groceries {
+.img-baby {
     width: 300px;
+    height: 300px;
 }
 .card-image h3 {
     text-decoration: underline;
@@ -397,6 +399,11 @@ color: var(--secondary-color);
 .card-container {
     border: 1px solid #d3d3d3;
     padding: 0.6rem;
+    text-align: left;
+}
+
+.card-container p {
+font-size: 1.2rem;
 }
 
 .tv-price, .grocery-price {
@@ -405,8 +412,36 @@ color: var(--secondary-color);
     font-weight: 400;
 }
 
-.Card1-body .grocery-monthly {
+.card-footer .grocery-monthly {
     opacity: 0.6;
     font-size: 1.5rem;
 }
 
+.card-gallery img{
+    width: 150px;
+}
+
+.gallery-footer {
+    padding-left: 2rem;
+}
+
+.gallery-footer li {
+    list-style-type: none;
+    list-style-image: url(/assets/images/tick.svg);
+    font-size: 1.2rem;
+}
+
+.card-image .baby-icon {
+    color: var(--ascent-color);
+}
+
+.Card1-body .baby-price {
+    font-weight: bold;
+}
+
+.card-footer a {
+    background-color: #f44336;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.6rem;
+}
