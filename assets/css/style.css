@@ -70,8 +70,6 @@ h3 {
         text-decoration: none;
     }
 
-/* List */
-
 /* Navigation */
 
 .menu {
@@ -83,40 +81,35 @@ h3 {
     padding: 1rem 1rem;
 }
 
-#logo {
-    color: var(--primary-color);
-    text-transform: uppercase;
-}
-
 .menu-list {
     width: 100%;
     margin: 0;
 }
+
 .menu-inline .list__items {
-    display: block;
+    display: inline-block;
+    position: relative;
     list-style-type: none;
     
+}
+
+.menu-inline .list__items a {
+display: block;
+padding: 1.25rem 1.5rem;
 }
 
 .menu-list a {
     color: white;
 }
 
-.menu-list a:hover {
+a.active, a:hover {
     background: var(--ascent-color);
 }
+
 
 .list__items {
     padding: 0.3rem 0;
     margin-right: 1.8rem;
-}
-
-.menu-list #anchor-icon {
-    background: var(--primary-color);
-    border:  1px solid #ccc;
-    border-radius: 50px;
-    overflow: hidden;
-    padding: 0 0.3rem;
 }
 
 @media screen  and (min-width: 786px) {
@@ -134,12 +127,6 @@ h3 {
     .menu-list a {
         font-size: 1.5rem;
     }
-}
-
-/* navigation drop down menu */
-
-.menu-inline .dropdown {
-    display: inline-block;
 }
 
 /* grid for index.html */
@@ -474,4 +461,52 @@ animation-direction: reverse;
         padding-right: 0.5rem;
         width: 90%;
     }
+}
+
+/*services.html section */
+
+.family-photo {
+    width: 400px;
+}
+
+.gridx1 {
+    display: grid;
+}
+
+@media screen and ( max-width: 767px) {
+    
+}
+@media screen  and (min-width: 768px) {
+    .gridx2 {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .quote-text {
+        font-size: 2rem;
+    }
+
+    .gridx2 {
+        grid-template-columns: auto auto;
+    }
+}
+/* quote */
+
+.quote {
+    font-style: italic;
+    color: var(--body-color);
+}
+
+.quote p::before {
+    content: open-quote;
+}
+.quote p::after {
+    content: close-quote;
+}
+
+/* hero image for the family walleyt section */
+
+.family-hero-image {
+    background: url(/assets/images/pexels-family\ wallet.jpg);
 }
