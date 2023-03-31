@@ -495,3 +495,25 @@ animation-direction: reverse;
 .family-hero-image {
     background: url(/assets/images/pexels-family\ wallet.jpg);
 }
+
+/* our story */
+
+.history {
+    padding-left: 2rem;
+    text-align: center;
+    padding-top: 1rem;
+}
+.history h3 {
+text-transform: uppercase;
+
+}
+
+.btn-history {
+    width: 25%;
+    margin-top: 1rem;
+}
+
+.btn-history::after {
+    content: "-->";
+}
+
