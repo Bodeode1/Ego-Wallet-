@@ -537,7 +537,7 @@ text-transform: uppercase;
     border:3px solid lightgrey;
 }
 
-.info {
+.box {
     width: 5rem;
     height: 5rem;
     background: gold;
