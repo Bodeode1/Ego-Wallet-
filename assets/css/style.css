@@ -502,18 +502,32 @@ animation-direction: reverse;
     padding-left: 2rem;
     text-align: center;
     padding-top: 1rem;
+    background-color: red;
+    float: left;
+    width: 33%;
 }
-.history h3 {
+.history-content h3 {
 text-transform: uppercase;
 
 }
 
+.about {
+    height: 600px;
+}
 .btn-history {
     width: 25%;
     margin-top: 1rem;
 }
 
-.btn-history::after {
-    content: "-->";
+.contact {
+    background: green;
+    float: right;
+    width: 33%;
+    display: inline-block;
 }
 
+.partnership {
+    background: brown;
+    margin: 0 auto;
+    width: 33%;
+}
