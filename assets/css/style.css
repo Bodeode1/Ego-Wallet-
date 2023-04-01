@@ -531,3 +531,14 @@ text-transform: uppercase;
     margin: 0 auto;
     width: 33%;
 }
+
+/* Marketplace Hero Section */
+.hero-containerx {
+    border:3px solid lightgrey;
+}
+
+.info {
+    width: 5rem;
+    height: 5rem;
+    background: gold;
+}
