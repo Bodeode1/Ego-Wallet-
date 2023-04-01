@@ -526,8 +526,33 @@ text-transform: uppercase;
     display: inline-block;
 }
 
-.partnership {
-    background: brown;
-    margin: 0 auto;
-    width: 33%;
+/* marketplace hero section */
+
+.marketplace-hero {
+    padding: 0.6rem 1.2rem;
+}
+
+.left-about {
+padding-top: 30px;
+width: 50%;
+float: left;
+background: green;
+}
+
+.right-about {
+    width: 50%;
+    padding-top: 30px;
+    float: right;
+    background: red;
+}
+
+.left-about-heading {
+    padding-left: 0.65rem;
+    text-align: left;
+    line-height: 2.8rrem;
+}
+
+.left-about-heading .h3 {
+    margin-bottom: 1rem;
+    font-family: lora, Arial, Helvetica, sans-serif;
 }
