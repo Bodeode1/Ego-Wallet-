@@ -531,15 +531,3 @@ text-transform: uppercase;
     margin: 0 auto;
     width: 33%;
 }
-
-/* Marketplace Hero Section */
-.containerx {
-display: flex;
-max-width: 1005;
-}
-
-.box {
-    width: 5rem;
-    height: 5rem;
-    background: gold;
-}
