@@ -533,8 +533,9 @@ text-transform: uppercase;
 }
 
 /* Marketplace Hero Section */
-.hero-containerx {
-    border:3px solid lightgrey;
+.containerx {
+display: flex;
+max-width: 1005;
 }
 
 .box {
