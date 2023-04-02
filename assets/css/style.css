@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Oswald&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Lora:wght@700&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Lora:wght@700&family=Montserrat&family=Oswald&display=swap');
 /* Color variables */
 :root {
     --primary-color: #0d7c57;
@@ -81,11 +80,11 @@ h3 {
 
 .menu {
     display: flex;
-    background-color: #000;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
     padding: 1rem 1rem;
+    height: 100px;
 }
 
 .menu-list {
@@ -99,7 +98,7 @@ h3 {
 }
 
 .menu-list a {
-    color: #fff;
+    color: #000;
 }
 
 .active {
@@ -530,7 +529,7 @@ text-transform: uppercase;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: calc(100vh - 350px);
+    height: calc(100vh - 250px);
     border: 1px solid red;
     padding-top: 1.5rem;
     line-height: 2.2rem;
@@ -550,9 +549,27 @@ text-transform: uppercase;
 .marketplace-info .h {
 font-family: Lora, Arial, Helvetica, sans-serif;
 font-size: 2.8rem;
-color: #000
+color: #000;
+margin-bottom: 2rem;
+font-weight: 600;
 }
 
+#marketplace-h {
+    color: var(--ascent-color);
+}
 .marketplace-info p {
     color: #000;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    margin-bottom: 2rem;
+}
+
+.marketplace-btn {
+padding: 0.9rem 1.8rem;
+background: #000;
+color: #fff;
+outline: none;
+font-weight: 600;
+border-radius: 5px;
+font-size: 1.3rem;
+cursor: pointer;
 }
