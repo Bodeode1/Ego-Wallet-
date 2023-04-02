@@ -523,5 +523,33 @@ text-transform: uppercase;
     background: green;
     float: right;
     width: 33%;
-    display: inline-block;
+    display: inline-block;}
+
+/* Marketplace hero section */
+.marketplace-hero {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: calc(100vh - 350px);
+    border: 1px solid red;
+    padding-top: 1.5rem;
+    line-height: 2.8rem;
+    margin: o auto;
+}
+
+.marketplace-img {
+    max-width: 670px;
+    height: 100%;
+}
+
+.marketplace-info {
+    width: 50%;
+    position: relative;
+    right: 60px;
+    flex: 0 auto;
+}
+
+.marketplace-info h3 {
+font-family: Lora, Arial, Helvetica, sans-serif;
+font-size: 1.6rem;
 }
