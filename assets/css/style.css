@@ -529,8 +529,8 @@ text-transform: uppercase;
 .marketplace-hero {
     display: flex;
     justify-content: center;
-    text-align: center;
-    height: calc(100vh - 350px);
+    align-items: center;
+    height: calc(100vh - 150px);
     border: 1px solid red;
     padding-top: 1.5rem;
     line-height: 2.8rem;
@@ -539,11 +539,11 @@ text-transform: uppercase;
 
 .marketplace-img {
     max-width: 670px;
-    height: 100%;
+    height: auto;
 }
 
 .marketplace-info {
-    width: 50%;
+    width: 30%;
     position: relative;
     right: 60px;
     flex: 0 auto;
