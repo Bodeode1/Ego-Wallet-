@@ -21,17 +21,18 @@ html {
 /* Typography */
 
 body {
-font-family: Lato, Arial, Helvetica, sans-serif;
+font-family: Montserrat, Arial, Helvetica, sans-serif;
 font-weight: 300;
 font-size: 1.5rem;
 line-height: 1.5;
-color: var(--body-color);
+color: #000;
 } 
 
+h1,
 h2,
 h3 {
     color: var(--heading-color);
-    font-family: Oswald, Arial, Helvetica, sans-serif;
+    font-family: Lora, Arial, Helvetica, sans-serif;
 }
 
 h1 {
@@ -84,7 +85,6 @@ h3 {
     flex-wrap: wrap;
     align-items: center;
     padding: 1rem 1rem;
-    height: 100px;
 }
 
 .menu-list {
@@ -280,7 +280,7 @@ font-size: 2rem;
     justify-content: center;
     padding: 1rem 1.5rem;
     align-items: flex-start; 
-    background: #000;
+
 }
 
 .socials h3 {
@@ -530,11 +530,10 @@ text-transform: uppercase;
     justify-content: center;
     align-items: center;
     height: calc(100vh - 250px);
-    border: 1px solid red;
     padding-top: 1.5rem;
     line-height: 2.2rem;
     margin: o auto;
-    flex-wrap: wrao;
+    flex-wrap: wrap;
 }
 
 .hero-picture {
@@ -557,6 +556,7 @@ font-weight: 600;
 #marketplace-h {
     color: var(--ascent-color);
 }
+
 .marketplace-info p {
     color: #000;
     font-family: Montserrat, Arial, Helvetica, sans-serif;
@@ -572,4 +572,40 @@ font-weight: 600;
 border-radius: 5px;
 font-size: 1.3rem;
 cursor: pointer;
+}
+
+/* Video section for services.html */
+
+.video-section {
+    margin: 0 auto;
+    width: 1000px;
+    margin-top: 1rem;
+}
+
+.video-wrapper {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 25px;
+height: 0;
+}
+
+.video-wrapper iframe {
+position: absolute;
+left: 0;
+bottom: 0;
+right: 0;
+top: 0;
+height: 100%;
+width: 90%;
+border-radius: 10px;
+}
+
+.video-explanation p {
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+.video-explanation {
+    max-width: 100%;
+    text-align: center;
 }
