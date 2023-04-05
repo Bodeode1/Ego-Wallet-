@@ -533,7 +533,7 @@ text-transform: uppercase;
     padding-top: 1.5rem;
     line-height: 2.2rem;
     margin: o auto;
-    flex-wrap: wrap;
+    
 }
 
 .hero-picture {
@@ -553,8 +553,9 @@ margin-bottom: 2rem;
 font-weight: 600;
 }
 
-#marketplace-h {
+.marketplace-info #marketplace-span {
     color: var(--ascent-color);
+
 }
 
 .marketplace-info p {
@@ -622,6 +623,31 @@ border-radius: 10px;
     width: 100%;
     height: 31.25rem;
     border: 1px solid red;
-    display
+    display: flex;
+    flex-direction: column;
+}
+
+.marketplace-img-body {
+    width: 100%;
+    height: 31.25rem;
+    margin-bottom: 1rem;
+}
+
+.hero-picture-body {
+    width: 100%;
+    height: 31.25rem;
+}
+
+.marketplace-info-body {
+    width: 100%;
+    height: 31.25rem;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    line-height: 2.2rem;
+    word-spacing: 5px;
+    border: 1px solid red;
+
 }
 
