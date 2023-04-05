@@ -619,40 +619,49 @@ border-radius: 10px;
 
 /* marketplace hero-body section */
 .marketplace-body-hero {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 37.5rem;
-        padding-top: 1.5rem;
-        line-height: 2.2rem;
-        margin: o auto;
-        flex-wrap: wrap;
-}
-
-.marketplace-info-body {
-    margin-left: 2rem;
-    display: flex;
-    align-items: center;
-    width: 60%;
+display: flex;
+flex-direction: column;
+width: 100%;
+height: 37.5rem;
 }
 
 .marketplace-img-body {
-    width: 40%;
+    width: 100%;
     height: 37.5rem;
-
+    margin: 1rem;
 }
 
-.marketplace-img-body .hero-picture-body {
+.hero-picture-body {
  width: 100%;
- height: 100%;
+ height: 37.5rem;
+}
+
+.marketplace-info-body {
+width: 100%;
+height: 37.5rem;
+font-size: 2rem;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+margin-top: 2.2rem;
+word-spacing: 5px;
 }
 
 @media screen and (max-width: 1024px ) {
     .marketplace-body-hero {
         display: flex;
-        flex-wrap: nowrap;
-        overflow: hidden;
+        flex-direction: row;
+        padding: 1.5rem 2rem;
     }
-    
+
+    .marketplace-info-body {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-left: 2rem;
+        font-size: 2rem;
+        align-items: center;
+        line-height: 5rem;
+    }
 }
 
