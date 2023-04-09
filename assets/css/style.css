@@ -678,7 +678,6 @@ border-radius: 10px;
 
 .team-member-details {
     flex-basis: 0 0 33%;
-    border: 1px solid red;
     padding: 2rem;
 }
 
@@ -691,6 +690,17 @@ border-radius: 10px;
 
 .title {
     margin-bottom: 1.5rem;
+}
+
+.team-member-img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+.team-member-img img{
+    height: 250px;
+    width: 250px;
 }
 
 
