@@ -581,6 +581,7 @@ cursor: pointer;
     margin: 0 auto;
     width: 1000px;
     margin-top: 1rem;
+    background: rgba(228, 238, 235, 0.2);
 }
 
 .video-wrapper {
@@ -761,7 +762,6 @@ border-radius: 10px;
 .story-text p {
     font-size: 1.125rem;
     margin-top: 1rem;
-    display: block;
 }
 
 /* Media Query for story section */
