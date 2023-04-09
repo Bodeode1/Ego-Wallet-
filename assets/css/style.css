@@ -652,27 +652,45 @@ border-radius: 10px;
 }
 
 /* About Section */
-
 .aboutus-container {
-
+    margin-top: 1.25rem;
 }
 
-.image-wrapper {
-    width: 300px;
-    height: 300px;
-    padding-top: 10px;
+#meet-exec {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 3rem;
 }
 
-.kunle-photo {
-    height: 100%;
+.aboutus-container hr {
+    border: 2px solid black;
+    text-align: center;
+    width: 100px;
+}
+
+.about-teams {
     width: 100%;
-    padding-top: 10px;
-    padding-left: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
-.kunle-photo img {
-height: 100%;
-width: 100%;
-border-radius: 50%;
+.team-member-details {
+    flex-basis: 0 0 33%;
+    border: 1px solid red;
+    padding: 2rem;
 }
+
+.team-member-details h3 {
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 1.1rem;
+}
+
+.title {
+    margin-bottom: 1.5rem;
+}
+
 
