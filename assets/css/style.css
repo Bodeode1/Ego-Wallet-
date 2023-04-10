@@ -789,3 +789,14 @@ border-radius: 10px;
         height: 400px;
     }
 }
+
+/* Contact -Us Section */
+
+.contact-us {
+    margin-top: 1.25rem;
+}
+.contact-us .contact-h3 {
+    text-align: Center;
+    font-size: 1.75rem;
+
+}
