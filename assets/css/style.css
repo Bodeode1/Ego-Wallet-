@@ -792,11 +792,27 @@ border-radius: 10px;
 
 /* Contact -Us Section */
 
+.contactus-flex-wraper {
+    width: 100%;
+    margin-top: 1.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .contact-us {
     margin-top: 1.25rem;
 }
 .contact-us .contact-h3 {
     text-align: Center;
     font-size: 1.75rem;
+}
 
+.contact-info-containerxl {
+    border: 1px solid red;
+}
+
+.contact-info-containerxl {
+    display: flex;
+    width: 49%;
+    flex-direction: column;
 }
