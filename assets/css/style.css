@@ -16,6 +16,7 @@
  
 
 html {
+
     font-size: 16px;
 }
 /* Typography */
@@ -119,7 +120,7 @@ a:hover {
     
     #logo {
         font-size: 3rem;
-    }
+     }
 
     .menu-list a {
         font-size: 1.5rem;
@@ -242,25 +243,31 @@ font-size: 2rem;
     background-size: cover;
     height: 600px;
     position: relative;
+
 }
 
 .hero-text {
+    width: 300px;
     position: absolute;
     color: #fff;
-    top: 0;
-    left: 0;
-    line-height: 1.2;
+    bottom: 20px;
+    right: 20px;
     text-align: center;
+    background-color: #000;
+    padding: 0.5rem 0.6rem;
 }
 
-.hero-text p {
-    word-spacing: 5px;
+.hero-text p, .hero-text h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    color: #fff;
 }
 
 .hero-text h1 {
-    font-size: 3rem;
+    /* font-size: 3rem;
     margin-bottom: 0.3rem;
-    word-spacing: 5px;
+    word-spacing */
 }
 
 @media screen and (min-width: 1024px) {
@@ -788,6 +795,10 @@ border-radius: 10px;
         width: 600px;
         height: 400px;
     }
+
+    .story-text {
+        width: 100%;
+    }
 }
 
 /* Contact -Us Section */
@@ -831,10 +842,6 @@ border-radius: 10px;
     background: #fff;
 }
 
-.contactus-icon-wrapper:hover .contact-icon {
-    background-color: #ffa500;
-}
-
 .contact-info h3 {
     color: var(--ascent-color);
     font-size: 1.2rem;
@@ -868,4 +875,11 @@ border-radius: 10px;
     .google-map {
         width: 70%;
     }
+}
+
+/* Sing Up Section */
+
+
+.sinup-inputs {
+
 }
