@@ -829,15 +829,14 @@ border-radius: 10px;
     text-align: center;
     margin-right: 1.5rem;
     background: #fff;
-    transition: 0.5s;
 }
 
-.contactus-icon-wrapper:hover iframe {
+.contactus-icon-wrapper:hover .contact-icon {
     background-color: #ffa500;
 }
 
 .contact-info h3 {
-    color:#ffa500;
+    color: var(--ascent-color);
     font-size: 1.2rem;
 }
 
@@ -850,7 +849,7 @@ border-radius: 10px;
     height: 500px;
     padding: 2.2rem;
     margin-right: 3.5rem;
-    border: 1px solid ;
+    border: 1px solid #000;
 }
 
 .google-map iframe {
