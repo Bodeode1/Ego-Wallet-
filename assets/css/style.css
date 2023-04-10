@@ -796,8 +796,9 @@ border-radius: 10px;
     width: 100%;
     margin-top: 1.25rem;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    padding-left: 2.18rem;
 }
 .contact-us {
     margin-top: 1.25rem;
@@ -808,11 +809,45 @@ border-radius: 10px;
 }
 
 .contact-info-containerxl {
-    border: 1px solid red;
-}
-
-.contact-info-containerxl {
     display: flex;
     width: 49%;
     flex-direction: column;
+}
+
+.contact-info-container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding: 1rem;
+    justify-content: flex-start;
+}
+
+.contactus-icon-wrapper {
+    margin-right: 1.5rem;
+}
+
+.contactus-icon-wrapper {
+    height: 3.5rem;
+    width: 3.5rem;
+    text-align: center;
+}
+
+.contact-info h3 {
+    color:#ffa500;
+    font-size: 1.2rem;
+}
+
+.contact-info p {
+    font-size: 1.125rem;
+}
+
+.google-map {
+    width: 40%;
+    height: 600px;
+    padding: 3.5rem;
+    margin-right: 2.5rem;
+}
+
+.google-map iframe {
+    margin-right: 2.5rem;
 }
