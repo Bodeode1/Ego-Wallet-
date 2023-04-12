@@ -115,12 +115,13 @@ a:hover {
     transition: color .3s;
 }
 
-@media screen  and (min-width: 786px) {
+@media screen  and (min-width: 768px) {
     .menu-list {
         display: flex;
         font-size: 1rem;
         max-height: 100%;
         width: auto;
+        
     }
     
     #logo {
@@ -133,12 +134,23 @@ a:hover {
     }
 }
 
+@media screen and (min-width: 576px) {
+    .menu {
+        flex-wrap: none;
+        display: flex;
+    
+    }
+
+    .menu-list {
+        display: inline-flex;
+    }
+}
 /* grid for index.html */
 .grid {
-    display: grid;
-    box-shadow: var(--box-shadow);
-    gap: 20px;
-    padding: 0.6rem 1rem;
+        display: grid;
+        box-shadow: var(--box-shadow);
+        gap: 20px;
+        padding: 0.6rem 1rem;
 }
 
 @media screen and (min-width:768px) and (max-width: 1023px) {
@@ -568,6 +580,7 @@ font-weight: 600;
 .marketplace-h {
     display: inline-block;
     margin-top: 1rem;
+    color: var(--ascent-color);
 }
 
 .marketplace-info #marketplace-span {
@@ -933,10 +946,6 @@ input[type="password"]
     font-size: 1.5rem;
 }
 
-.form-group input ::placeholder {
-    font-size: 1.3rem;
-}
-
 .btn-signup {
     padding: 0.9rem 1.8rem;
     background: var(--ascent-color);
@@ -993,5 +1002,15 @@ input[type="password"]
 
     .signup-lists p {
         font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .signup-lists li {
+        font-size: 1.2rem;
+    }
+
+    .signup-lists p {
+        font-size: 0.9rem;
     }
 }
