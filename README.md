@@ -16,7 +16,7 @@ Visit the live website here! [Ego Wallet](https://bodeode1.github.io/Ego-Wallet-
 ## * The Home Page
     The home page includes a background image with a text overlay that provides an introduction to the company's purpose.
 
-    ![Wallet](/assets/images/walletpicture.jpg)
+    ![Wallet](assets/images/walletpicture.jpg)
 
 
 ## * The About Page
@@ -31,3 +31,13 @@ Visit the live website here! [Ego Wallet](https://bodeode1.github.io/Ego-Wallet-
 
 ## * Sign-Up Page 
     The sign-up page provides users with a form to fill out.
+
+
+## *The Footer
+
+    The footer section includes hypertext links to the relevant social medias sites for Ego Wallet. When clicked on, the links will open to a new tab to allow easy navigation between the all the pages of the website.
+![footer nav bar
+](assets/images/footer.png)
+    
+
+## *
