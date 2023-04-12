@@ -682,6 +682,7 @@ border-radius: 10px;
 .aboutus-container {
     margin-top: 1.25rem;
     padding: 0 2.5rem;
+    background: rgba(228, 238, 235, 0.2);
 }
 
 #meet-exec {
@@ -759,7 +760,6 @@ border-radius: 10px;
 .story {
     margin-top: 1.25rem;
     padding: 0 2.5rem;
-    background: rgba(228, 238, 235, 0.2);
 }
 
 .story-container {
