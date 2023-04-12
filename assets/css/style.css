@@ -241,10 +241,24 @@ a:hover {
 font-size: 2rem;
 }
 
+/* media query for Card section */
+@media screen and (min-width:767px) {
+    .card-body {
+        padding: 0 0;
+    }
+
+@media screen and(min-width:977) 
+and (max-width: 1002){
+    .card-header p {
+        padding-left: 0;
+    }
+}
+    
+}
 /* hero-image */
 
 .hero-image {
-    background: url(../images/wallet\ picture.jpg) center center;
+    background: url(../images/walletpicture.jpg) center center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
