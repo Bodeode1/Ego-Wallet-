@@ -902,6 +902,7 @@ border-radius: 10px;
 
 .sinup-inputs {
     width: 45%;
+    box-shadow: 0 0 10px #686868;
 }
 
 .input-headeing3 {
@@ -912,7 +913,6 @@ border-radius: 10px;
     display: flex;
     flex-direction: column;
     padding: 5px 10px;
-    border: 1px solid red;
     width: 100%;
 }
 
@@ -930,7 +930,7 @@ input[type="password"]
 
 .form-group {
     margin-bottom: 1.5rem;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 
 .form-group input ::placeholder {
@@ -955,11 +955,12 @@ input[type="password"]
     width: 100%;
     justify-content: center;
     align-items: center;
+    margin-top: 4rem;
 }
 
 .signup-lists {
     width: 45%;
-    margin-left: 2rem;
+    margin-left: 3rem;
 }
 
 .signup-lists li {
@@ -972,4 +973,25 @@ input[type="password"]
 .signup-lists p {
     font-size: 1rem;
     margin-bottom: 1.2rem;
+}
+
+/* Media Query for sign-up section */
+
+@media screen and (max-width: 991px) {
+    .signup-flex-wrapper {
+        flex-direction: column;
+    }
+
+    .sinup-inputs {
+        width: 90%;
+        margin-bottom: 2.5rem;
+    }
+
+    .signup-lists {
+        width: 90%;
+    }
+
+    .signup-lists p {
+        font-size: 1.1rem;
+    }
 }
