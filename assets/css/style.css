@@ -77,6 +77,11 @@ h3 {
     color: var(--ascent-color);
     font-family: Lora, Arial, Helvetica, sans-serif;
 }
+
+.socials li h3 {
+    font-size: 1.0rem;
+    color: red;
+}
 /* Navigation */
 
 .menu {
