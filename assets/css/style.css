@@ -115,7 +115,7 @@ a:hover {
     transition: color .3s;
 }
 
-@media screen  and (min-width: 768px) and (max-width: 991px) {
+@media screen  and (min-width: 576px) and (max-width: 991px) {
     .menu-list {
         display: flex;
         font-size: 1rem;
@@ -964,6 +964,7 @@ input[type="password"]
     justify-content: center;
     align-items: center;
     margin-top: 4rem;
+    background: rgba(189, 226, 243, 0.1)
 }
 
 .signup-lists {
