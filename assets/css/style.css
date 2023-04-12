@@ -138,11 +138,10 @@ a:hover {
     .menu {
         flex-wrap: none;
         display: flex;
-    
     }
 
-    .menu-list {
-        display: inline-flex;
+    .menu-list a {
+        display: flex;
     }
 }
 /* grid for index.html */
