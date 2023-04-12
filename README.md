@@ -30,4 +30,4 @@ Visit the live website here! [Ego Wallet](https://bodeode1.github.io/Ego-Wallet-
     ![Alt text](assets/images/contactsales.png)
 
 ## * Sign-Up Page 
-    The sign -up page 
+    The sign-up page provides users with a form to fill out.
