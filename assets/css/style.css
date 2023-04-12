@@ -904,6 +904,10 @@ border-radius: 10px;
     width: 45%;
 }
 
+.input-headeing3 {
+    font-size: 1.5rem;
+    margin-bottom: 1.2rem;
+}
 .input-container {
     display: flex;
     flex-direction: column;
@@ -925,7 +929,12 @@ input[type="password"]
 }
 
 .form-group {
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.3rem;
+}
+
+.form-group input ::placeholder {
+    font-size: 1.3rem;
 }
 
 .btn-signup {
@@ -938,12 +947,14 @@ input[type="password"]
     font-size: 1.3rem;
     width: 90%;
     opacity: 0.7;
+    margin-bottom: 1.2rem;
 }
 
 .signup-flex-wrapper {
     display: flex;
     width: 100%;
-
+    justify-content: center;
+    align-items: center;
 }
 
 .signup-lists {
@@ -955,5 +966,10 @@ input[type="password"]
     list-style-type: none;
     list-style-image: url(/assets/images/tick.svg);
     margin-bottom: 1.2rem;
+    font-weight: bold;
+}
 
+.signup-lists p {
+    font-size: 1rem;
+    margin-bottom: 1.2rem;
 }
