@@ -542,7 +542,6 @@ text-transform: uppercase;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* height: calc(100vh - 250px); */
     padding-top: 1.5rem;
     line-height: 2.2rem;
     margin: o auto;
@@ -901,7 +900,6 @@ border-radius: 10px;
 
 /* Sing Up Section */
 
-
 .sinup-inputs {
     width: 30%;
 }
@@ -918,6 +916,7 @@ input[type="text"],
 input[type="email"],
 input[type="password"]
 {
+   
     border-radius: 5px;
     border: 1px solid #ccc;
     padding: 1rem 0.7rem;
@@ -926,5 +925,17 @@ input[type="password"]
 }
 
 .form-group {
- margin-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.btn-signup {
+    padding: 0.9rem 1.8rem;
+    background: var(--ascent-color);
+    color: #000;
+    outline: none;
+    font-weight: 400;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    width: 90%;
+    opacity: 0.7;
 }
