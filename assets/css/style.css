@@ -133,16 +133,6 @@ a:hover {
     }
 }
 
-@media screen and (min-width: 576px) {
-    .menu {
-        flex-wrap: none;
-        display: flex;
-    }
-
-    .menu-list a {
-        display: flex;
-    }
-}
 /* grid for index.html */
 .grid {
         display: grid;
@@ -326,7 +316,7 @@ opacity: 0.4;
 }
 
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 576px) {
     .socials {
         flex-direction: row;
         justify-content: space-between;
