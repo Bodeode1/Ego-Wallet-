@@ -18,7 +18,16 @@ Visit the live website here! [Ego Wallet](https://bodeode1.github.io/Ego-Wallet-
 
     ![Alt text](assets/images/walletpicture.jpg)
 
+
 ## * The About Page
     The About page informs the user of the company's mission and the technology it provides to deliver its mission. This section also provides the company's contact details and then introduces the users to the executive team.
 
+    ![Alt text](assets/images/ourteam.png)
 
+## * The Services Page
+    The services page informs the users to create an account and contact the sales team for help. It also shows a youtube video that tells users they can sell anything on the company's platform.
+
+    ![Alt text](assets/images/contactsales.png)
+
+## * Sign-Up Page 
+    The sign -up page 
